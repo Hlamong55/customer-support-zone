@@ -3,6 +3,8 @@ import Footer from "./components/Footer"
 import Navbar from "./components/navbar"
 import Progress from "./components/Progress"
 import Tickets from "./components/Ticket";
+import TaskStatus from "./components/TaskStatus";
+import ResolvedTask from "./components/ResolvedTask";
 
 function App() {
 
@@ -18,7 +20,17 @@ console.log(tickets);
 
     <div className="min-h-screen">
     <Progress />
-    <Tickets tickets={tickets} />
+   
+   <div className="md:grid grid-cols-11 gap-5 mx-auto">
+     <div className="col-span-9">
+      <Tickets tickets={tickets} />
+    </div>
+    <div className="col-span-2">
+      <TaskStatus />
+      <ResolvedTask />
+    </div>
+   </div>
+
     </div>
 
      <Footer />
