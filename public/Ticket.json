@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Dashboard widgets not updating",
+    "description": "Several users reported that real-time sales and analytics widgets on the dashboard remain frozen. Refreshing the page or clearing cache does not solve the problem.",
+    "customer": "Amelia Clark",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-10T08:20:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Error sending contact form",
+    "description": "The support contact form throws a validation error even when all fields are filled correctly. This prevents customers from reaching the help desk.",
+    "customer": "Benjamin Wright",
+    "priority": "Medium Priority",
+    "status": "In- Progress",
+    "createdAt": "2025-09-12T15:05:00Z"
+  },
+  {
+    "id": 3,
+    "title": "iOS app freezes on login",
+    "description": "Multiple iPhone users reported that the mobile app becomes unresponsive right after entering credentials. Reinstalling the app does not fix the issue.",
+    "customer": "Charlotte Evans",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-11T09:50:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Product images missing",
+    "description": "Some product detail pages are not loading images, leaving placeholders instead. The issue occurs on both desktop and mobile browsers.",
+    "customer": "Daniel Cooper",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "2025-09-13T11:40:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Navigation menu not expanding",
+    "description": "On smaller devices, the sidebar menu does not expand when clicked. This blocks users from accessing important account settings.",
+    "customer": "Ella Morgan",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "2025-09-14T07:55:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Search filter not applying",
+    "description": "Users applying category filters in the search page still see unrelated results. This is affecting customers who want to narrow down product listings.",
+    "customer": "Felix Turner",
+    "priority": "Medium Priority",
+    "status": "In- Progress",
+    "createdAt": "2025-09-12T16:25:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Billing address not saving",
+    "description": "Some customers cannot save their billing addresses during checkout. Even after filling correct data, the system reverts back to blank fields.",
+    "customer": "Georgia Adams",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "2025-09-15T10:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Push notifications delayed",
+    "description": "App push notifications for order updates arrive several hours late. Customers expect instant alerts but only receive them long after delivery.",
+    "customer": "Hugo Bennett",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2025-09-09T18:05:00Z"
+  },
+  {
+    "id": 9,
+    "title": "File upload stuck",
+    "description": "Profile file uploads never complete, showing 'uploading' status indefinitely. Users tried multiple browsers and connections with no success.",
+    "customer": "Ivy Collins",
+    "priority": "Low Priority",
+    "status": "In- Progress",
+    "createdAt": "2025-09-13T21:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Search bar auto-suggestions broken",
+    "description": "The search box no longer provides suggestions while typing. Customers need to type the full product name before results appear.",
+    "customer": "James Scott",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2025-09-16T14:10:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Wishlist items disappearing",
+    "description": "Products added to the wishlist vanish after a page reload. Customers lose track of saved products they want to purchase later.",
+    "customer": "Kylie Foster",
+    "priority": "High Priority",
+    "status": "In- Progress",
+    "createdAt": "2025-09-17T09:45:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Chatbot not responding",
+    "description": "Automated chatbot stays stuck on the welcome message and never processes user queries, forcing customers to contact support directly.",
+    "customer": "Liam Harris",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "2025-09-11T19:20:00Z"
+  }
+]
