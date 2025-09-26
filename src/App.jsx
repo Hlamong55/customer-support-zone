@@ -7,8 +7,6 @@ function App() {
     <div>
      <Navbar />
 
-     <h1>Main</h1>
-
      <Footer />
     </div>
   )
