@@ -1,4 +1,5 @@
 import { FaCircle } from "react-icons/fa";
+import { FaRegCalendarAlt } from "react-icons/fa";
 const statusColors = {
   Open: "bg-[#b9f8cf] text-[#02A53B]",
   "In- Progress": "bg-[#ffe9b0] text-[#d4a100]",
@@ -7,14 +8,14 @@ const statusColors = {
 
 const priorityColors = {
   "High Priority": "text-red-600",
-  "Medium Priority": "text-orange-500",
+  "Medium Priority": "text-yellow-500",
   "Low Priority": "text-green-600",
 };
 
-const Tickets = ({ tickets }) => {
+const Tickets = ({ tickets, addToProgress, notify }) => {
   return (
     <section className="px-4 md:px-8 py-6">
-      <h2 className="text-xl md:text-3xl font-bold mb-6 pb-2">
+      <h2 className="text-2xl font-bold mb-6 pb-2 text-[#34485A]">
         Customer Tickets
       </h2>
 
@@ -62,6 +63,7 @@ const Tickets = ({ tickets }) => {
 
                 <div className="flex flex-wrap gap-4 text-gray-700">
                   <span>{ticket.customer}</span>
+                  <FaRegCalendarAlt className="w-5 h-5" />
                   <span>{new Date(ticket.createdAt).toLocaleDateString()}</span>
                 </div>
               </div>

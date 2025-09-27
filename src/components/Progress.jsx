@@ -1,11 +1,11 @@
 import vector1 from "./../../public/image/vector1.png";
 
-const Progress = () => {
+const Progress = ({inProgress, resolved}) => {
   return (
-    <section className="px-4 md:px-10 py-8">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+    <section className="px-4 py-8 md:px-10 md:py-16">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* image 1 */}
-        <div className="relative rounded-2xl overflow-hidden min-h-[220px] flex items-center justify-center shadow-lg">
+        <div className="relative rounded-xl overflow-hidden min-h-[220px] flex items-center justify-center shadow-lg">
           <div className=" inset-0 bg-center bg-cover" aria-hidden="true" />
 
           <div className="absolute inset-0 bg-gradient-to-tr from-[#632EE3] to-[#9F62F2]" />
@@ -20,14 +20,14 @@ const Progress = () => {
             <h3 className="text-base md:text-lg font-medium tracking-wide">
               In-Progress
             </h3>
-            <p className="text-5xl md:text-6xl font-bold mt-2"> 0
-              {/* {inProgress.length} */}
+            <p className="text-5xl md:text-6xl font-bold mt-2"> 
+              {inProgress.length}
             </p>
           </div>
         </div>
 
         {/* image 2 */}
-        <div className="relative rounded-2xl overflow-hidden min-h-[220px] flex items-center justify-center shadow-lg">
+        <div className="relative rounded-xl overflow-hidden min-h-[220px] flex items-center justify-center shadow-lg">
           <div className=" inset-0 bg-center bg-cover" aria-hidden="true" />
 
           <div className="absolute inset-0 bg-gradient-to-tr from-[#54CF68] to-[#00827A]" />
@@ -42,8 +42,8 @@ const Progress = () => {
             <h3 className="text-base md:text-lg font-medium tracking-wide">
               Resolved
             </h3>
-            <p className="text-5xl md:text-6xl font-bold mt-2"> 0
-              {/* {resolved.length} */}
+            <p className="text-5xl md:text-6xl font-bold mt-2"> 
+              {resolved.length}
             </p>
           </div>
         </div>
