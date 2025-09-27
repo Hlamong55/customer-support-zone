@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Progress from "./components/Progress";
 import Tickets from "./components/Ticket";
 import TaskStatus from "./components/TaskStatus";
