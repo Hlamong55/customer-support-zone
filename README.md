@@ -1,16 +1,46 @@
-# React + Vite
+1. What is JSX, and why is it used?
+ANS: JSX (JavaScript XML) is a JavaScript syntax extension.
+It is used for -> i. Easy to write and understand UI code
+                 ii. Build React components simple and readable
+                 iii.Compiles into React.createElement() calls
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+2. What is the difference between State and Props?
+ANS: 
+State
+-> Managed inside a component
+-> can be updated by using setStates
+-> Used to store and handle data that changes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+props
+-> Shorts for properties
+-> It pass from parent to child
+-> Cannot be changed by the child
 
-## React Compiler
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. What is the useState hook, and how does it work?
+ANS: It is a React hook that can add and manage state in functional components.
 
-## Expanding the ESLint configuration
+function Counter() {
+  const [count, setCount] = useState(0);
+}
+count = state value, setCount = funtion to update it, useState(0) = initializes count with 0
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+4. How can you share state between components in React?
+ANS: There are few way to share.
+##Lift State up:
+-> Keep the state in a common parent component abd pass it down as props
+-> Child components can update it using functions passed from the parent.
+
+##React Context: Useful when you need to share state across many components without passing props manually at every level.
+
+##State Management Libraries: Tools like Redux, Zustand, or Recoil manage global state outside of components.
+
+
+5. How is event handling done in React?
+ANS: Event handling in React is very similar to JavaScript, but with some key differences:
+i. Events are written in camelCase
+ii. Pass a function reference, not a string
+iii. Event object is a SyntheticEvent
