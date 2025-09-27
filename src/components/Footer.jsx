@@ -3,6 +3,7 @@ import { FaXTwitter, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa6"
 const Footer = () => {
   return (
   <footer className="bg-black text-gray-300 p-6 md:px-12 py-10">
+
     <div className="md:flex gap-10 justify-between container mx auto">
       <div className="lg:col-span-2">
         <h2 className="text-white font-bold text-lg mb-4">
@@ -14,7 +15,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 className="text-white font-semibold mb-4">Company</h3>
+        <h3 className="text-white font-semibold mt-3 mb-4">Company</h3>
         <ul className="space-y-3 text-sm">
           <li>
             <a href="#" className="text-[#A1A1AA] hover:text-white">
@@ -35,7 +36,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 className="text-white font-semibold mb-4">Services</h3>
+        <h3 className="text-white font-semibold mt-3 mb-4">Services</h3>
         <ul className="space-y-3 text-sm">
           <li>
             <a href="#" className="text-[#A1A1AA] hover:text-white">
@@ -56,7 +57,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h3 className="text-white font-semibold mb-4">Information</h3>
+        <h3 className="text-white font-semibold mt-3 mb-4">Information</h3>
         <ul className="space-y-3 text-sm">
           <li>
             <a href="#" className="text-[#A1A1AA] hover:text-white">
@@ -77,7 +78,7 @@ const Footer = () => {
       </div>
 
       <div className="sm:col-span-2 md:col-span-1 lg:col-auto">
-        <h3 className="text-white font-semibold mb-4">Social Links</h3>
+        <h3 className="text-white font-semibold mt-3 mb-4">Social Links</h3>
         <ul className="space-y-3 text-sm">
 
           <li className="flex items-center gap-2">

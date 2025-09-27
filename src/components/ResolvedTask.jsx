@@ -11,10 +11,10 @@ const ResolvedTask = ({ tasks }) => {
         tasks.map((task) => (
           <div
             key={task.id}
-            className="px-3 py-3 my-3 rounded shadow bg-fuchsia-50"
+            className="px-3 py-3 my-3 rounded shadow bg-amber-100"
           >
             <p className="font-medium mb-2">{task.title}</p>
-            <span className="text-green-800 bg-green-100 px-5 py-1 rounded">
+            <span className="text-green-800 bg-green-100 px-6 py-1 rounded">
               {" "}
               Completed
             </span>
